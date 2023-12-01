@@ -1,7 +1,7 @@
 # BACKGROUND IMAGE SELECTOR PLUGIN
 Elevate your website's visual appeal with the Background Image Selector Plugin – a versatile jQuery tool that empowers developers to seamlessly integrate a background image switch button into their web pages.
 
-**Check out the live application example at [Background Image Selector](https://background-image-selector.vercel.app/).**
+**Check out the live application example at [Background Image Selector](https://background-selector.vercel.app/).**
 
 If you found this plugin useful, please consider making a $2 contribution via PayPal to bestkaraokeapp@gmail.com for continuous improvement. Your support is invaluable, and we genuinely appreciate it!
 
