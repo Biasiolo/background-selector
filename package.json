@@ -1,0 +1,32 @@
+{
+  "name": "background_selector_plugin",
+  "version": "1.0.0",
+  "description": "This is a jQuery plugin that enables developers to add a background image selector button to their web pages. With this plugin, users can switch between different background images with the button.",
+  "main": "plugin-background-image.js", 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biasiolo/Background-Image-Selector.git"
+  },
+  "keywords": [
+    "jquery",
+    "plugin",
+    "background image",
+    "switch background image",
+    "image selector",
+    "front-end",
+    "background selector",
+    "ux/ui"
+  ],
+  "author": "Biasiolo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Biasiolo/Background-Image-Selector/issues"
+  },
+  "homepage": "https://github.com/Biasiolo/Background-Image-Selector#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

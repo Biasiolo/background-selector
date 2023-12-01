@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 150px;
+    padding: 40px;
+    background-color: black;
+}
+
+.text h1 {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button {
+    margin-left: auto; /* Empurra o botão para a direita */
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#scrollDownButton {
+    font-size: 16px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: black;
+    padding: 4px 6px;
+    color: whitesmoke;
+    border-radius: 5px;
+    width: 120px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#scrollDownButton:active {
+    transform: scale(0.98);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+#backgroundImageContainer {
+    width: 100%;
+    height: 100vw; /* Mantém a altura como 100vw para telas maiores */
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh; /* Garante que o formulário ocupe 100% da altura da tela */
+}
+
+/* Adicione esta regra para centralizar o botão na vertical */
+form input[type="image"] {
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+
+    body {
+        margin-bottom: 0;
+    }
+
+    #backgroundImageContainer {
+        height: 100vw;
+    }
+
+}
+
